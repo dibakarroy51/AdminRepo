@@ -60,6 +60,8 @@ git push origin --delete NewBranch
 
 git merge master
 
+git rebase master
+
 git branch -M main
 
 use "git rm --cached <file>..." to unstage
