@@ -1,0 +1,78 @@
+
+git@github.com:Debugger-Learning/AdminRepo.git
+
+ssh-keygen -t rsa -b 4096 -C dibakar2roy@gmail.com
+
+/c/Users/Dell/.ssh/id_rsa
+
+$ eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+git init
+
+debugger-learning-key
+SHA256:kui43ITj3+KZi9zyyRIIZpI7+jRQ07vVAmLH84t6wco
+
+git add .
+
+git commit -m "first ever commit"
+
+git remote add origin git@github.com:Debugger-Learning/AdminRepo.git
+
+git remote -v
+
+$ git push –u origin master
+
+git clone git@github.com:dibakarroy51/AdminRepo.git
+
+git remote add upstream git@github.com:Debugger-Learning/AdminRepo.git
+
+git add learning_Docs/Interview.docx (staging)
+
+git restore --staged learning_Docs/Interview.docx (for unstaging)
+
+git commit --amend (for revert commit message in local repo)
+
+git log
+
+git push origin master
+
+git branch "myBranch"
+
+git checkout myBranch
+
+---to delete the above branch
+
+git checkout master
+
+git branch -d myBranch (successfully deleted)
+
+--- to create a new branch and switch to it in one command
+
+git checkout -b "NewBranch"
+
+git push origin NewBranch
+
+-- to delete NewBranch from remote as well
+
+git push origin --delete NewBranch
+
+git merge master
+
+git branch -M main
+
+use "git rm --cached <file>..." to unstage
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Dell@DESKTOP-HQI574E.(none)')
+
+User-SSH-Key
+SHA256:j9GQUsqYKfCnCl28IklLUhq1fx4jdpgylG62uDcPXXM
